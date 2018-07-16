@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Some Website</title>
+  <style media="screen">
+    body{
+      margin:0px;
+      padding:0px;
+      background-color: rgba(0,0,0,0.1);
+      font-family: sans-serif;
+    }
+    ul {
+      height:100px;
+      list-style: none;
+      width:100%;
+      margin:0px;
+      padding:0px;
+      display: flex;
+      justify-content: flex-start;
+      background-color: black
+    }
+    li {
+
+    }
+    a {
+      text-decoration: none;
+      width:150px;
+      height:100%;
+      color:white;
+      display: flex;
+      justify-content: center;
+      align-items: center
+
+    }
+    footer {
+      position:absolute;
+      bottom:0px;
+      width:100%;
+      display: flex;
+      justify-content: center;
+      margin:0px
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <a href="/"><li>HOME</li></a>
+    <a href="/about"><li>ABOUT</li></a>
+  </ul>
+  {{{body}}}
+
+  {{>footer}}
+</body>
+</html>
