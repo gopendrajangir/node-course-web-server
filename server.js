@@ -49,6 +49,12 @@ app.get('/about', (req, res) => {
   res.render('about',{
     msg:"About Us",
   });
+});
+
+app.get('/project', (req, res) => {
+  res.render('project',{
+    msg:'See our Projects here',
+  })
 })
 
 app.listen(port, ()=> {

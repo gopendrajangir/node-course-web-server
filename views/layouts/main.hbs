@@ -35,6 +35,9 @@
       align-items: center
 
     }
+    .container {
+      padding:15px;
+    }
     footer {
       position:absolute;
       bottom:0px;
@@ -49,9 +52,12 @@
   <ul>
     <a href="/"><li>HOME</li></a>
     <a href="/about"><li>ABOUT</li></a>
+    <a href="/project"><li>PROJECTS</li></a>
   </ul>
-  {{{body}}}
+  <div class="container">
+    {{{body}}}
 
-  {{>footer}}
+    {{>footer}}
+  </div>
 </body>
 </html>
